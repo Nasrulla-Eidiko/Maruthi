@@ -3,7 +3,7 @@ File x = file('/home/bandaru/ace-11.0.0.7/tools')
 File y = file('/home/bandaru/ace-11.0.0.7/server/bin')
 File z = file('/var/lib/jenkins/workspace')
 File currentDir = file(".")
-task iibDeploy {
+task mqsicreatebar {
   doLast {
     exec {
       commandLine 'sh','-c', 'mqsicreatebar -data /home/bandaru/Videos/ -b /home/bandaru/Videos/dummy.bar -a Maruthi -p Maruthi'
